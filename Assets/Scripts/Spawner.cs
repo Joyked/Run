@@ -29,18 +29,6 @@ public class Spawner : MonoBehaviour
             maxSize: _poolMaxSize
         );
     }
-
-    private void OnEnable()
-    {
-        Ground.EnterInSpawn += SpawnGround;
-        Ground.ExitInSpawn += DispawnGround;
-    }
-
-    private void OnDisable()
-    {
-        Ground.EnterInSpawn -= SpawnGround;
-        Ground.ExitInSpawn -= DispawnGround;
-    }
     
     private Ground CreateGround()
     {
@@ -79,5 +67,17 @@ public class Spawner : MonoBehaviour
     private void ActionOnRelease(Ground ground)
     {
         ground.gameObject.SetActive(false);
+    }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Ground ground))
+            SpawnGround(ground);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.TryGetComponent(out Ground ground))
+            DispawnGround(ground);
     }
 }
