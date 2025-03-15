@@ -2,16 +2,21 @@ using UnityEngine;
 
 public class PlayerMover : MonoBehaviour
 {
-    public static PlayerMover Player;
-    
-    [SerializeField] private DirectionDetected _directionDetected;
     [SerializeField] private float _speed;
     [SerializeField] private float _acceleration;
     [SerializeField] private float _waterResistance = 2000;
-
-    private bool _isGroundDetectedRight = false;
-    private Rigidbody _rigidbody;
     
+    private TuchButton _reverseDirectionButton;
+    private GroundDetecter _groundDetecter;
+    private bool _isMoveDirectionRight = false;
+    private Rigidbody _rigidbody;
+
+
+    public void Initialize(GroundDetecter groundDetecter, TuchButton button)
+    {
+        _reverseDirectionButton = button;
+        _groundDetecter = groundDetecter;
+    }
 
     private void Awake()
     {
@@ -20,42 +25,32 @@ public class PlayerMover : MonoBehaviour
 
     private void OnEnable()
     {
-        _directionDetected.GroundIsOnRight += TurnToRight;
+        _isMoveDirectionRight = _groundDetecter.GroundIsRight;
+        _reverseDirectionButton.ButtonPressed += ReversDirection;
     }
 
-    private void OnDisable()
-    {
-        _directionDetected.GroundIsOnRight -= TurnToRight;
-    }
+    private void OnDisable() => _reverseDirectionButton.ButtonPressed += ReversDirection;
 
     private void FixedUpdate()
     {
         _speed += _acceleration;
         Vector3 position = transform.position;
-        position += _isGroundDetectedRight ? Vector3.right * _speed : Vector3.forward * _speed;
+        position += _isMoveDirectionRight ? Vector3.right * _speed : Vector3.forward * _speed;
         _rigidbody.MovePosition(position);
-        transform.eulerAngles = _isGroundDetectedRight ? new Vector3(0, 90, 0) : new Vector3(0, 0, 0);
+        transform.eulerAngles = _isMoveDirectionRight ? new Vector3(0, 90, 0) : new Vector3(0, 0, 0);
     }
-
-    private void Update()
-    {
-        if (Input.GetButtonDown("Jump"))
-            _isGroundDetectedRight = !_isGroundDetectedRight;
-    }
+    
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.TryGetComponent(out BuoyantForce water))
         {
-            _rigidbody.AddForce(_isGroundDetectedRight ? Vector3.right * _speed * _waterResistance : Vector3.forward * _speed * _waterResistance);
+            _rigidbody.AddForce(_isMoveDirectionRight ? Vector3.right * _speed * _waterResistance : Vector3.forward * _speed * _waterResistance);
             _rigidbody.drag = 1;
             _acceleration = 0;
             _speed = 0;
         }
     }
-
-    private void TurnToRight()
-    {
-        _isGroundDetectedRight = true;
-    }
+    
+    private void ReversDirection() => _isMoveDirectionRight = !_isMoveDirectionRight;
 }

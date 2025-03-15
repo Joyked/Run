@@ -4,12 +4,14 @@ using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private Ground _prefabGround;
     [SerializeField] private int _poolCapacity;
     [SerializeField] private int _poolMaxSize;
 
     private ObjectPool<Ground> _pool;
+    private Ground _prefabGround;
 
+    public void Initialized(Ground ground) => _prefabGround = ground;
+    
     private enum Direction
     {
         Right,
@@ -30,11 +32,6 @@ public class Spawner : MonoBehaviour
         );
     }
     
-    private Ground CreateGround()
-    {
-        return Instantiate(_prefabGround);
-    }
-
     private void SpawnGround(Ground ground)
     {
         Direction randomDirection = (Direction)Random.Range((int)Direction.Right, (int)Direction.Left + 1);
@@ -54,20 +51,13 @@ public class Spawner : MonoBehaviour
         _pool.Get().transform.position = newPositiom;
     }
 
-    private void DispawnGround(Ground ground)
-    {
-        _pool.Release(ground);
-    }
+    private Ground CreateGround() => Instantiate(_prefabGround);
     
-    private void ActionOnGet(Ground ground)
-    {
-        ground.gameObject.SetActive(true);
-    }
+    private void DispawnGround(Ground ground) => _pool.Release(ground);
+    
+    private void ActionOnGet(Ground ground) => ground.gameObject.SetActive(true);
 
-    private void ActionOnRelease(Ground ground)
-    {
-        ground.gameObject.SetActive(false);
-    }
+    private void ActionOnRelease(Ground ground) => ground.gameObject.SetActive(false);
     
     private void OnTriggerEnter(Collider other)
     {

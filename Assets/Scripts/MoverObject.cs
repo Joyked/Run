@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class MoverObject : MonoBehaviour
 {
-    [SerializeField] private PlayerMover _playerMover;
-
+    private PlayerMover _playerMover;
+    
+    public void Initialize(PlayerMover player) => _playerMover = player;
+    
     private void Update()
     {
         transform.position = new Vector3(_playerMover.transform.position.x, transform.position.y,

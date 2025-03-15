@@ -1,0 +1,840 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.36f1 (7a0645017be0) revision 7996997'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 16104 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/UnityProject/Run
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+52677
+Successfully changed project path to: C:/UnityProject/Run
+C:/UnityProject/Run
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4508] Host "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 242049635 [EditorId] 242049635 [Version] 1048832 [Id] WindowsEditor(7,Ilyas) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4508] Host "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 242049635 [EditorId] 242049635 [Version] 1048832 [Id] WindowsEditor(7,Ilyas) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 103.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.36f1 (7a0645017be0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProject/Run/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 1.975441 seconds.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/iOSSupport\x64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 266 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 24.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (24777ms)
+		BeginReloadAssembly (16215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (5573ms)
+			LoadAssemblies (16268ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (4496ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (967ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (770ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/iOSSupport\x64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in 19.971 seconds
+Domain Reload Profiling:
+	ReloadAssembly (19972ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (19615ms)
+			LoadAssemblies (16437ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (843ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (637ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (2.1 MB). Loaded Objects now: 4786.
+Memory consumption went from 164.7 MB to 162.6 MB.
+Total: 3.174300 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.112600 ms MarkObjects: 2.573600 ms  DeleteObjects: 0.259500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1801544.646181 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 018.png
+  artifactKey: Guid(c224cc9d83d7c3b4ea4ab83a52cbfa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 018.png using Guid(c224cc9d83d7c3b4ea4ab83a52cbfa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96a009b230bef7d851f0067f30dd076') in 0.143749 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 018.png
+  artifactKey: Guid(c8f2a733d9a978646a7761aadc778bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 018.png using Guid(c8f2a733d9a978646a7761aadc778bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90403777ab25a07962b7588f07ab1a8c') in 0.034028 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 018.png
+  artifactKey: Guid(70b60a262328fa0459440f41b2bf5b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 018.png using Guid(70b60a262328fa0459440f41b2bf5b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e39116fca2a9940bd2083220dab7bf') in 0.036040 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 018.png
+  artifactKey: Guid(905d8d12f70dcc641a5efd8fae976e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 018.png using Guid(905d8d12f70dcc641a5efd8fae976e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df63cd88bffab8d13db9cf5b51b39a1') in 0.039843 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 018.png
+  artifactKey: Guid(4b90d8de7f8f7694a961ed6205c42d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 018.png using Guid(4b90d8de7f8f7694a961ed6205c42d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dcee7c381e91a173f47c6f82cbdf08') in 0.040812 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.543399 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 016.png
+  artifactKey: Guid(4eec2487d22215a4eb034f057f9d2d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 016.png using Guid(4eec2487d22215a4eb034f057f9d2d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1d4a2c4c92052a3d9fb782c6f0f021') in 0.045412 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 017.png
+  artifactKey: Guid(e3f657e42bf2db34ca9e02df9ba51afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 017.png using Guid(e3f657e42bf2db34ca9e02df9ba51afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4de0521ad6f9e32ceeabd0d6a3d5e7') in 0.044350 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 017.png
+  artifactKey: Guid(9e55ca6acba4e9e40a7fea9e6556a375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 017.png using Guid(9e55ca6acba4e9e40a7fea9e6556a375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3dff272ccedd8737a5812c9e233e02') in 0.037543 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 017.png
+  artifactKey: Guid(aba352aa96edd7b4e8e44cdd4602accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 017.png using Guid(aba352aa96edd7b4e8e44cdd4602accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fc47eb63b04edbe69678039e2aaca0') in 0.038575 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 017.png
+  artifactKey: Guid(a2abc9121a12cfd468eb6c8a89713f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 017.png using Guid(a2abc9121a12cfd468eb6c8a89713f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35186075e144bfaf5dbbec5c86d1165a') in 0.038789 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 017.png
+  artifactKey: Guid(5df36a4f1467d5d4788983cf3a428626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 017.png using Guid(5df36a4f1467d5d4788983cf3a428626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba3e6f541931885cea6de6aee4852f2') in 0.034407 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.528812 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 015.png
+  artifactKey: Guid(7722145cdaf66634982650e4efe065d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 015.png using Guid(7722145cdaf66634982650e4efe065d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f50b79bd0433aca07ab93e112ceb994') in 0.054218 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 015.png
+  artifactKey: Guid(3af6f4f6f04eeb04895219c06848dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 015.png using Guid(3af6f4f6f04eeb04895219c06848dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df684e4aebbe964f85f617c1faca62d0') in 0.041493 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 015.png
+  artifactKey: Guid(a71d93e5f1eab7e46a7630da90614892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 015.png using Guid(a71d93e5f1eab7e46a7630da90614892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7c48aac295a690079119183483328e') in 0.036294 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 015.png
+  artifactKey: Guid(3b631db3c72fc7d4ebd21ea01f35bb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 015.png using Guid(3b631db3c72fc7d4ebd21ea01f35bb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b09200d07cf0ba5b67e65352249432') in 0.034861 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 016.png
+  artifactKey: Guid(58c0626d52d72314ca5280bb9a6bcc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 016.png using Guid(58c0626d52d72314ca5280bb9a6bcc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f926ce8dea17938e54df7566019b41c3') in 0.034719 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 016.png
+  artifactKey: Guid(05a0c26ecfc258049a9e30bf14eddd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 016.png using Guid(05a0c26ecfc258049a9e30bf14eddd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d1728776b2212582a74222b0706894') in 0.030737 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.842029 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 014.png
+  artifactKey: Guid(a8a1a0322f58af34b9031029cff2f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 014.png using Guid(a8a1a0322f58af34b9031029cff2f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a889046da4b681b9de53f6918113a482') in 0.034248 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 014.png
+  artifactKey: Guid(cd29ce73240e4b74a8d30013b142afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 014.png using Guid(cd29ce73240e4b74a8d30013b142afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9722a0fe5ba736a4fd85c85dab64d5fb') in 0.034273 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 014.png
+  artifactKey: Guid(e2d7909c55fb8c14ca8849ec2f422a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 014.png using Guid(e2d7909c55fb8c14ca8849ec2f422a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70332d17098163bdb93729b3ceb80c0e') in 0.033976 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 014.png
+  artifactKey: Guid(87742e61dca5130408d9f8db870b457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 014.png using Guid(87742e61dca5130408d9f8db870b457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ace6e47c323ebd3f554cf850f2f2436') in 0.036385 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 015.png
+  artifactKey: Guid(475f8572014c7b04696e1908d2246d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 015.png using Guid(475f8572014c7b04696e1908d2246d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc968c80ca0e203096698398607e5ca') in 0.037059 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 014.png
+  artifactKey: Guid(81eda248035ab9249bf1ef50fd2c570b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 014.png using Guid(81eda248035ab9249bf1ef50fd2c570b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3affaf3fea546c5fde4037dc42d767ee') in 0.037082 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 013.png
+  artifactKey: Guid(9025b5324aea7ba4abb5c85a4a5d3c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 013.png using Guid(9025b5324aea7ba4abb5c85a4a5d3c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b21ace48ca4f8782e2471e1bea051b') in 0.034763 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 013.png
+  artifactKey: Guid(b48b44afec3c6c840a38cf2d0c8b67a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 013.png using Guid(b48b44afec3c6c840a38cf2d0c8b67a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7170d44214d95302ac427b58be5491ec') in 0.035625 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 013.png
+  artifactKey: Guid(453a687a8aa22274fa2b2876a11270d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 013.png using Guid(453a687a8aa22274fa2b2876a11270d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4101bae62eac478feedf4882ed13fa66') in 0.037443 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 012.png
+  artifactKey: Guid(9e5314a60d10460439af9fd6f982f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 012.png using Guid(9e5314a60d10460439af9fd6f982f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c2e8ec70f5c8c79bf977fdef4f4795') in 0.040945 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 013.png
+  artifactKey: Guid(765beaf14419620428d36c2b12b14c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 013.png using Guid(765beaf14419620428d36c2b12b14c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d4c236c22473a4e1e6b1c6e7c6c196') in 0.034842 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 014.png
+  artifactKey: Guid(2a258cd2aea67b446b1ca5d4a579dced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 014.png using Guid(2a258cd2aea67b446b1ca5d4a579dced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a6b4ee1e9835d7726b71a99b6f32d5') in 0.036785 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.396719 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 011.png
+  artifactKey: Guid(5e73f76abbcc24c4d89aa88f0148e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 011.png using Guid(5e73f76abbcc24c4d89aa88f0148e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6baaae090549e823fc0b191f1531a9fd') in 0.050368 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 012.png
+  artifactKey: Guid(e9cd3c016b7093648afe20f8343ec057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 012.png using Guid(e9cd3c016b7093648afe20f8343ec057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fbbe7c3384678a21b4dc3a32dadd7b') in 0.047729 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 011.png
+  artifactKey: Guid(88af521b8579b7a4e868bc3cf689a679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 011.png using Guid(88af521b8579b7a4e868bc3cf689a679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17592e23ef76dd0538865ca3e41487f') in 0.037865 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 011.png
+  artifactKey: Guid(93b1a3755d492804d90be0327cf63336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 011.png using Guid(93b1a3755d492804d90be0327cf63336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd62fe4346445f8e10b1b3d378aaa70') in 0.038983 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 012.png
+  artifactKey: Guid(0aff78441f8f5d04ab8d597d72457152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 012.png using Guid(0aff78441f8f5d04ab8d597d72457152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbab33e55c46de4dd9d6cd928661de7') in 0.033592 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 011.png
+  artifactKey: Guid(6b0fc0355660f7e4d9616fe406a2c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 011.png using Guid(6b0fc0355660f7e4d9616fe406a2c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629fde2b31aa50a11bf62aa1a5c524d6') in 0.035075 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006031 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 010.png
+  artifactKey: Guid(2fde25d7593d6bf4bad0d57a4e024d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 010.png using Guid(2fde25d7593d6bf4bad0d57a4e024d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365c0a34fab1134ca947acc6e8dd6d7b') in 0.037823 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 010.png
+  artifactKey: Guid(dbd46b23c989fc64bae6224c97852f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 010.png using Guid(dbd46b23c989fc64bae6224c97852f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca02bdd81d2ddecd6a9d281f2f60f6c8') in 0.034156 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 010.png
+  artifactKey: Guid(9e69ec09a6c41a84791ce6d7c5283142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 010.png using Guid(9e69ec09a6c41a84791ce6d7c5283142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabbc6915e8129f3defcfd0297f2bacc') in 0.034997 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 010.png
+  artifactKey: Guid(5ffc11c3c47b8574c95fbb825dc29858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 010.png using Guid(5ffc11c3c47b8574c95fbb825dc29858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e23d77161f27a154ce575a8246cfda0') in 0.038560 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 010.png
+  artifactKey: Guid(d9e4647a19497274d9fad884a7b993dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 010.png using Guid(d9e4647a19497274d9fad884a7b993dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c388b9994fb5ab8be98e55db4da2d0') in 0.037086 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 011.png
+  artifactKey: Guid(3f918843c0731864990e0f7bdd0b74a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 011.png using Guid(3f918843c0731864990e0f7bdd0b74a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e28be5505e88c0834b3b629d5707ace') in 0.035129 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.601157 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 008.png
+  artifactKey: Guid(aeeb3af592a6f0c479edbda688ec62e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 008.png using Guid(aeeb3af592a6f0c479edbda688ec62e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a1a1a2e88b6d697c34b2d00c1669f6') in 0.054006 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 009.png
+  artifactKey: Guid(81d09755958c6ff4fbb10edf0bc75836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 009.png using Guid(81d09755958c6ff4fbb10edf0bc75836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0736e6a03b1d655cfac11efe5347b4e') in 0.041660 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 009.png
+  artifactKey: Guid(fcc02bad6cabc7f4b82349b26a40c5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 009.png using Guid(fcc02bad6cabc7f4b82349b26a40c5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6e660a5783dfe6e233fffefa5fa3db') in 0.035241 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 009.png
+  artifactKey: Guid(1492c3efc40e1824f8e70e67d865d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 009.png using Guid(1492c3efc40e1824f8e70e67d865d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38ebd0016507fe1ab746fbcd089021c') in 0.035224 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 010.png
+  artifactKey: Guid(1f708ceff85f16540bf498ab4e8018af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 010.png using Guid(1f708ceff85f16540bf498ab4e8018af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50537d8d6f18dc2fb913ed53de2e91bd') in 0.035904 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 009.png
+  artifactKey: Guid(6fc0672a21a10814180271b558b9233c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 009.png using Guid(6fc0672a21a10814180271b558b9233c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680866ce4baff0fdc72fe7118948869b') in 0.037894 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019968 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 007.png
+  artifactKey: Guid(082b2e4e39244aa40bb7e0987ad8724a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 007.png using Guid(082b2e4e39244aa40bb7e0987ad8724a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435ebeaf89c638a2e5d93f012774c904') in 0.039280 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 008.png
+  artifactKey: Guid(e40bdbea667c55b4fa26569490b41310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 008.png using Guid(e40bdbea667c55b4fa26569490b41310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1d2e8b879d3bc8a7fee29bfd90df8a') in 0.040615 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 007.png
+  artifactKey: Guid(fef7981251be40347bf3fa1a6b044282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 007.png using Guid(fef7981251be40347bf3fa1a6b044282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e47e20f365127f674f7c13c3976a270') in 0.035839 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 008.png
+  artifactKey: Guid(3b8dca38b8cc5e948968ecc620965ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 008.png using Guid(3b8dca38b8cc5e948968ecc620965ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa54a783a4b7002a9404204a967a2bc0') in 0.035262 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 008.png
+  artifactKey: Guid(b1f39aded351fc943b885c58989cc442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 008.png using Guid(b1f39aded351fc943b885c58989cc442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aba531ef1e97197c300860b35f0340e') in 0.041626 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 007.png
+  artifactKey: Guid(ee3aac7bb491bf94aba5cafa230717c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 007.png using Guid(ee3aac7bb491bf94aba5cafa230717c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8a5255ddde607329f848f76e0bbe8b') in 0.041681 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.361809 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 006.png
+  artifactKey: Guid(f8e2117d12192714b971d7c493332ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 006.png using Guid(f8e2117d12192714b971d7c493332ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb3e31c50582e1ed7a60afa8f2664fc') in 0.045007 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 006.png
+  artifactKey: Guid(9f7492e7832dea94e956dc726aa8d5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 006.png using Guid(9f7492e7832dea94e956dc726aa8d5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42e75850d51f1d6c68ffc50a7422a19') in 0.044711 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 007.png
+  artifactKey: Guid(fefd92a401a067d46b9ff7bdade0ec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 007.png using Guid(fefd92a401a067d46b9ff7bdade0ec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bdf149fd08aed8c8dd2e503666731d') in 0.037379 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 006.png
+  artifactKey: Guid(9338dee437edcc14d821fc63676d186d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 006.png using Guid(9338dee437edcc14d821fc63676d186d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689c65025056c89a9c3e0be1038731ae') in 0.034268 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 005.png
+  artifactKey: Guid(29d4af30d7582ae4fbf552f1684425ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 005.png using Guid(29d4af30d7582ae4fbf552f1684425ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6394977c5018b18ba06d25a3b99a2d') in 0.051645 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 005.png
+  artifactKey: Guid(3aa6f024b9a9f0a439365338d0475424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 005.png using Guid(3aa6f024b9a9f0a439365338d0475424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868dc38893aaacad8759125884f846a7') in 0.033884 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 005.png
+  artifactKey: Guid(be6d822221049fc4fa2f67a0e513827b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 005.png using Guid(be6d822221049fc4fa2f67a0e513827b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1b26c90629b5ccc3bac26a2da13b03') in 0.047667 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 005.png
+  artifactKey: Guid(8fbba1bae0adef0418d6419e59d352d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 005.png using Guid(8fbba1bae0adef0418d6419e59d352d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab2e2fe790f06273bae7cc8a82f54d2') in 0.040379 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 007.png
+  artifactKey: Guid(c090b24f29649964fa146fb8e8143d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 007.png using Guid(c090b24f29649964fa146fb8e8143d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c03723355b0dcc760e9c8548c986a9e') in 0.041987 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 007.png
+  artifactKey: Guid(8de2753f94a3ffd4fa9ef629488c28a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 007.png using Guid(8de2753f94a3ffd4fa9ef629488c28a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d00c9ea6b05ae4fd6d61e77212c5fa') in 0.046811 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 006.png
+  artifactKey: Guid(9c05cd00799c85243928e9b7a5a6c03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 006.png using Guid(9c05cd00799c85243928e9b7a5a6c03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107a5a6ad214d074058bc521346892b8') in 0.045743 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 005.png
+  artifactKey: Guid(927fbb1341e35e34f88d421b1a9848a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 005.png using Guid(927fbb1341e35e34f88d421b1a9848a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a4e203360c613a64a4cac5c359678f') in 0.050186 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.181668 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 003.png
+  artifactKey: Guid(466dfaadf4f4ff7428855434c864f907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 003.png using Guid(466dfaadf4f4ff7428855434c864f907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148fc23a84e68a7316913c3ffad74f51') in 0.047988 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 004.png
+  artifactKey: Guid(67818d19806f1df49a1dfe88207eb9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 004.png using Guid(67818d19806f1df49a1dfe88207eb9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f40fc6af96bd73fea95c4d70a9b79c') in 0.039890 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 004.png
+  artifactKey: Guid(fad11dca39fbb2547ad2157b6ffd583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/003 Orange/Button 004.png using Guid(fad11dca39fbb2547ad2157b6ffd583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716eb85429f7c487d75e34bd6ddbb101') in 0.042836 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 003.png
+  artifactKey: Guid(1c3d49df83f842e41bddee3cdaecb8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/002 Bright Red/Button 003.png using Guid(1c3d49df83f842e41bddee3cdaecb8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d48273df70158e6ee68df9a5e4f8c9') in 0.044666 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 003.png
+  artifactKey: Guid(4e4f46de12e8db7438d887e7e6598cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 003.png using Guid(4e4f46de12e8db7438d887e7e6598cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41330e63f452d921ea813c55ff09560c') in 0.042100 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 003.png
+  artifactKey: Guid(29a11d6eac8083545a80209ce879da11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 003.png using Guid(29a11d6eac8083545a80209ce879da11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54aceb3f6393980a0b777ae98678372d') in 0.050476 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.179109 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 002.png
+  artifactKey: Guid(e0041590536ab0e4fafb7fa14886c4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/001 Red/Button 002.png using Guid(e0041590536ab0e4fafb7fa14886c4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3d89a052ba9a2b677b741d1fc3adda') in 0.045360 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 003.png
+  artifactKey: Guid(5f3d1929273d5b54cbc8bb54075f3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 003.png using Guid(5f3d1929273d5b54cbc8bb54075f3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bf467e8ef8ae2b8dfbc8f3d47f2201') in 0.040985 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 003.png
+  artifactKey: Guid(818cf846bcfde7946b13a172672df069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 003.png using Guid(818cf846bcfde7946b13a172672df069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6aebbc7d1b20f4195c6cfb9adc0980e') in 0.040855 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 002.png
+  artifactKey: Guid(e247c30db88e74049978ebeaa3714e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/006 Light Yellow/Button 002.png using Guid(e247c30db88e74049978ebeaa3714e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc919c67bef74e2f833d03cfec153ab6') in 0.043640 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 002.png
+  artifactKey: Guid(068b7461b12cd25438d805e30de13d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 002.png using Guid(068b7461b12cd25438d805e30de13d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861dfbb4bf8e2b61fd3d8506af3d8fe7') in 0.051124 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 002.png
+  artifactKey: Guid(455ef2cc0af4e8a4b8b407b6c32cd749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/008 Light Blue/Button 002.png using Guid(455ef2cc0af4e8a4b8b407b6c32cd749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7b1cb75357b40fa6b828070338cd2c') in 0.048546 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.066704 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 001.png
+  artifactKey: Guid(7db34d6bb4a9bee47b715a74b0ea5aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 001.png using Guid(7db34d6bb4a9bee47b715a74b0ea5aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88870e1364f1f4f8a374d5e0eb955d50') in 0.058188 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 001.png
+  artifactKey: Guid(77ffb7fedfb6d7742a432ec264cdc602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/009 Blue/Button 001.png using Guid(77ffb7fedfb6d7742a432ec264cdc602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b7f8da004e577da4d82c31fab3a879') in 0.051577 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 001.png
+  artifactKey: Guid(4b02146e17835a044b97dd6b10ec0ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/004 Light Orange/Button 001.png using Guid(4b02146e17835a044b97dd6b10ec0ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23708cf9fd2d98e63007d8b651b57f36') in 0.056386 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 002.png
+  artifactKey: Guid(921d4588f2eb42841a680c6dd57d4dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/005 Yellow/Button 002.png using Guid(921d4588f2eb42841a680c6dd57d4dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bf4b949ef2ee6dc9de8a532ea0a1a0') in 0.054384 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 001.png
+  artifactKey: Guid(f896e811553f7df41bde7ad0c513f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Traint/Free Casual Buttons Pack/Sprites/007 Light Green/Button 001.png using Guid(f896e811553f7df41bde7ad0c513f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7514bc2a7da124f17dba3c071abcc23a') in 0.048921 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

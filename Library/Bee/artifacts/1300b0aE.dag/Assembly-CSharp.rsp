@@ -363,12 +363,20 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BuoyantForce.cs"
-"Assets/Scripts/DirectionDetected.cs"
+"Assets/Scripts/Counter.cs"
+"Assets/Scripts/DIContainer.cs"
+"Assets/Scripts/DrawerCanvasBackMenu.cs"
 "Assets/Scripts/Ground.cs"
+"Assets/Scripts/GroundDetecter.cs"
+"Assets/Scripts/LauncherMenu.cs"
 "Assets/Scripts/MoverObject.cs"
 "Assets/Scripts/PlayerMover.cs"
+"Assets/Scripts/ScoreText.cs"
+"Assets/Scripts/SeterBackMenu.cs"
 "Assets/Scripts/Spawner.cs"
-"Assets/Scripts/TapDisplay.cs"
+"Assets/Scripts/TextEffects.cs"
+"Assets/Scripts/TuchButton.cs"
+"Assets/Simple Vector Icons/Sample/IconPreview.cs"
 -langversion:9.0
 
 /deterministic
