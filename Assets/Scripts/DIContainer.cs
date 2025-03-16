@@ -10,6 +10,7 @@ public class DIContainer : MonoBehaviour
     [SerializeField] private MoverObject _moverObject;
     [SerializeField] private ScoreText _scoreText;
     [SerializeField] private Counter _counter;
+    [SerializeField] private NextPlayer _nextPlayer;
     [SerializeField] private TuchButton _startButton;
     [SerializeField] private TuchButton _nextModelButton;
     [SerializeField] private TuchButton _reverseDirectionButton;
@@ -34,6 +35,6 @@ public class DIContainer : MonoBehaviour
         _scoreText.Initialized(_counter);
         _drawerCanvasBackMenu.Initialized(_playerMover, _reverseDirectionButton, _replayGroup, _buoyantForce);
         _seterBackMenu.Initialized(_backButton);
-        
+        _nextPlayer.Initialize(_nextModelButton);
     }
 }

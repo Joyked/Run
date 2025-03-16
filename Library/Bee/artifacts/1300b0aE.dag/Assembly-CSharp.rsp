@@ -370,6 +370,7 @@
 "Assets/Scripts/GroundDetecter.cs"
 "Assets/Scripts/LauncherMenu.cs"
 "Assets/Scripts/MoverObject.cs"
+"Assets/Scripts/NextPlayer.cs"
 "Assets/Scripts/PlayerMover.cs"
 "Assets/Scripts/ScoreText.cs"
 "Assets/Scripts/SeterBackMenu.cs"
