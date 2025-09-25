@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class GroundDetecter : MonoBehaviour
 {
-    public bool GroundIsRight { get; private set; }
-
-    private void OnTriggerEnter(Collider other)
+    [SerializeField] private Counter _counter;
+    
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.TryGetComponent(out Ground ground))
-            GroundIsRight = true;
+        if (other.gameObject.TryGetComponent(out Ground ground))
+            _counter.AddPoint();
     }
 }

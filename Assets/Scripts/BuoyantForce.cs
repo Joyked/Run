@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class BuoyantForce : MonoBehaviour
 {
-    public event Action InWater; 
-    
     [SerializeField] float _waterDensity = 10f;
     
     private Rigidbody _rigidbody;
     private float _surface;
     private float _divePercent;
     private float _percentWater;
+    
+    public event Action InWater; 
 
     private void OnTriggerEnter(Collider other)
     {
@@ -18,6 +18,7 @@ public class BuoyantForce : MonoBehaviour
         {
             _rigidbody = player.GetComponent<Rigidbody>();
             _surface = player.transform.position.y;
+            player.enabled = false;
             _percentWater = (_surface - transform.position.y) / 100;
             InWater?.Invoke();
         }

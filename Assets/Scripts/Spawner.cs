@@ -6,9 +6,9 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] private int _poolCapacity;
     [SerializeField] private int _poolMaxSize;
+    [SerializeField] private Ground _prefabGround;
 
     private ObjectPool<Ground> _pool;
-    private Ground _prefabGround;
 
     public void Initialized(Ground ground) => _prefabGround = ground;
     
