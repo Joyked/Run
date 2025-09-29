@@ -1,10 +1,9 @@
-using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMover : MonoBehaviour
 {
-    [SerializeField] private InputSwipeRider _swipeRider;
+    [SerializeField] private InputSwipeHandler _swipeHandler;
     [SerializeField] private BuoyantForce _water;
     [Space]
     [Header("Params")]
@@ -13,6 +12,8 @@ public class PlayerMover : MonoBehaviour
 
     private Rigidbody _rigidbody;
     private Vector3 _direction;
+    private bool _isStarted = false;
+    
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -20,30 +21,43 @@ public class PlayerMover : MonoBehaviour
 
     private void OnEnable()
     {
-        _swipeRider.SwipedLeft += TurnLeft;
-        _swipeRider.SwipedRight += TurnRight;
+        _swipeHandler.SwipedLeft += TurnLeft;
+        _swipeHandler.SwipedRight += TurnRight;
         _water.InWater += Stop;
     }
 
     private void OnDisable()
     {
-        _swipeRider.SwipedLeft -= TurnLeft;
-        _swipeRider.SwipedRight -= TurnRight;
+        _swipeHandler.SwipedLeft -= TurnLeft;
+        _swipeHandler.SwipedRight -= TurnRight;
         _water.InWater -= Stop;
     }
 
     private void FixedUpdate()
     {
-        Vector3 newPosition = (transform.position + _direction * _startSpeed);
-        _rigidbody.MovePosition(newPosition);
-        _startSpeed += _velocity;
+        if (_isStarted)
+        {
+            Vector3 newPosition = (transform.position + _direction * _startSpeed);
+            _rigidbody.MovePosition(newPosition);
+            _startSpeed += _velocity;
+        }
     }
 
-    private void TurnLeft() =>
+    private void TurnLeft()
+    {
         _direction = Vector3.forward;
 
-    private void TurnRight() =>
+        if (_isStarted == false)
+            _isStarted = true;
+    }
+
+    private void TurnRight()
+    {
         _direction = Vector3.right;
+        
+        if (_isStarted == false)
+            _isStarted = true;
+    }
 
     private void Stop()
     {
