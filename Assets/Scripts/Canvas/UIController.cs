@@ -32,5 +32,4 @@ public class UIController : MonoBehaviour
         _scoreCanvas.gameObject.SetActive(false);
         _returnCanvas.gameObject.SetActive(true);
     }
-
 }

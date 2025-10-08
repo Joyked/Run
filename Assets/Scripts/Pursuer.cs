@@ -6,7 +6,8 @@ public class Pursuer : MonoBehaviour
 
     private void Update()
     {
-        transform.position = new Vector3(_target.transform.position.x, transform.position.y,
-            _target.transform.position.z);
+        if (_target.transform.position.x >= transform.position.x || _target.transform.position.z >= transform.position.z)
+            transform.position = new Vector3(_target.transform.position.x, transform.position.y, _target.transform.position.z);
+        
     }
 }

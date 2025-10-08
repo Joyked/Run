@@ -131,7 +131,7 @@ MonoBehaviour:
   _swipeHandler: {fileID: 0}
   _water: {fileID: 0}
   _startSpeed: 0
-  _velocity: 0.00005
+  _velocity: 0.0001
 --- !u!114 &6548556764844789324
 MonoBehaviour:
   m_ObjectHideFlags: 0
